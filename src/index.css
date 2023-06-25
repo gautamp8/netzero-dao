@@ -1,0 +1,339 @@
+html,
+body {
+  margin: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #fafafa; */
+  background-image: url("../public/background.png");
+  background-size: cover;
+  color: #484b6a;
+  overflow-x: hidden;
+}
+#root {
+  min-height: 100vh;
+  display: flex;
+}
+
+h1 {
+  font-size: 5rem;
+}
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+.unsupported-network {
+  width: 340px;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin: auto;
+  padding: 1rem;
+}
+
+.error {
+  width: 340px;
+  max-width: 100%;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+  background-color: #f00;
+}
+
+.landing,
+.connect-wallet,
+.mint-nft,
+.member-page {
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  max-width: calc(100% - 1rem);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin: auto;
+  align-items: center;
+  justify-content: flex-start;
+  min-height: 70vh;
+  text-align: center;
+}
+
+.badge {
+  display: inline-block;
+  border: 1px solid #484b6a;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  padding: 5px 5px;
+  margin-right: 5px;
+}
+
+.badge:focus-within {
+  outline: 2px solid blue;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0 auto;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: justify;
+}
+
+td {
+  font-weight: bold;
+}
+
+th:nth-child(2) {
+  text-align: right;
+}
+
+td:nth-child(even) {
+  text-align: right;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 1rem;
+  color: #000;
+  box-shadow: 3.1px 6.2px 6.2px hsl(0deg 0% 0% / 0.4);
+}
+
+.btn-hero {
+  width: 250px;
+}
+
+button {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  font-family: inherit;
+  padding: 1.2rem 2rem;
+  text-transform: uppercase;
+  border-radius: 3rem;
+  font-size: 1.2rem;
+}
+
+.button-go {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  font-family: inherit;
+  padding: 1.0rem 2rem;
+  text-transform: uppercase;
+  border-radius: 1rem;
+  font-size: 1.0rem;
+}
+
+button:hover {
+  background-color: #121212;
+}
+
+button:focus {
+  background-color: #222;
+}
+
+button:disabled {
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1px;
+  margin-right: 20px;
+  border: 1px;
+  border-color: #121212;
+}
+
+.select-dropdown {
+  width: 300px;
+  height: 45px;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #555;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.select-dropdown:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgb(1, 1, 4);
+}
+
+.select-dropdown option {
+  background-color: #f2f2f2;
+  color: #555;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.metadata-card {
+  display: flex;
+  width: 900px;
+  height: 450px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.metadata-image {
+  flex: 1 1 50%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.metadata-content {
+  flex: 1 1 50%;
+  padding: 16px;
+  overflow: auto;
+}
+
+.metadata-title {
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.metadata-attributes {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+}
+
+.metadata-attribute {
+  display: flex; /* Make the attribute a flex container */
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  background: #f9f9f9;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.buttonStyle {
+  padding: '10px 20px';
+  fontSize: '16px';
+  borderRadius: '5px';
+  border: 'none';
+  backgroundColor: '#007BFF';
+  color: 'white';
+  cursor: 'pointer';
+};
+
+.metadata-attribute strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.member-card {
+  width: 100%;
+  padding: 20px;
+  max-width: 1000px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  margin-top: 2rem;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.chart-container,
+.voting-container {
+  width: 45%;
+  overflow-y: auto;
+}
+
+.voting-container {
+  border-left: 1px solid #000;
+  padding-left: 20px;
+  max-height: 800px;
+  overflow-y: auto;
+}
+
+.project {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+.project-title {
+  font-size: 18px;
+}
+
+.project-description,
+.vote-count {
+  font-size: 14px;
+  margin: 0 10px;
+  padding: 5px 0;
+}
+
+.vote-button,
+.submit-button {
+  padding: 5px 10px;
+  font-size: 14px;
+  margin: 0 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  cursor: pointer;
+}
+
+.submit-button {
+  margin-top: 20px;
+}
+
+.submit-success {
+  color: white;
+  font-weight: bold;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  margin: auto;
+}
+
+.input-label {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.address-input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}

@@ -1,0 +1,3 @@
+[submodule "netzero-backend"]
+	path = netzero-backend
+	url = git@github.com:satwikkansal/netzero-backend.git
