@@ -39,9 +39,9 @@ const App = () => {
 
   const ETHERSCAN_API_KEY = 'W43BF6PWCKDTI6D2BNGUYYGAQYRVUZSJIV';
   const DAO_CONTRACT = "0x3eAA0917966954a14D9F1874da8DceB015B239c5";
-  const PREMINE_API_ENDPOINT = "http://146.190.194.36:7777/premine"
-  const TREASURY_API_ENDPOINT = new URL("http://146.190.194.36:7777/treasury")
-  const NFT_METADATA_URL = "http://146.190.194.36:7777/m/p"
+  const PREMINE_API_ENDPOINT = "https://dev-api.netzerohedera.xyz/premine"
+  const TREASURY_API_ENDPOINT = new URL("https://dev-api.netzerohedera.xyz/treasury")
+  const NFT_METADATA_URL = "https://dev-api.netzerohedera.xyz/m/p"
 
   // A Web3Provider wraps a standard Web3 provider, which is
   // what MetaMask injects as window.ethereum into each page
