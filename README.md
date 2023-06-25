@@ -25,6 +25,12 @@ Please note that Hedera previewnet or testnet RPCs are relatively unstable nowad
 
 This repo contains the Front-end for the project. The backend code is submoduled (can be accessed from the repo, or directly [here](https://github.com/satwikkansal/netzero-backend)).
 
+### Architecture
+
+Here's what the current architecture looks like
+
+![image](/images/architecture.svg)
+
 ## Instructions to run
 
 To get started with this project, clone this repo and follow the commands below
