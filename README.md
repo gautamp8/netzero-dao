@@ -1,6 +1,6 @@
 # NetZero DAO (by team HoraFeliz)
 
-> Offset on-chain emissions using HBAR (the native Hedera currency) and invest in on-ground carbon projects
+> Offset on-chain emissions using HBAR (the native Hedera currency) and invest transparently in on-ground carbon projects
 
 ![image](https://github.com/gautamp8/netzero-dao/assets/10217535/5a35d336-f33e-40d0-b4b1-7a4e75fc1e02)
 
@@ -12,7 +12,13 @@ See the project explanation video at: https://youtu.be/av83zaqHCIc
 [![NetZero Demo](https://img.youtube.com/vi/av83zaqHCIc/1.jpg)](https://www.youtube.com/watch?v=av83zaqHCIc)
 
 
-Check the deployed app at https://netzero-dao.vercel.app/
+Check the deployed app at https://netzero-dao.vercel.app/. Please note -
+
+- App currently supports ECDSA accounts only for EVM compatibility
+- Switch to Hedera PreviewNet in your wallet before connecting. You can use this [Chainlist link](https://chainlist.org/?search=hedera+previewnet) to switch in one-click.
+- If you do not have Ethereum mainnet transactions, you can pick any other wallet address to add to the box (For ex - `0xd8dA6BF26964aF9D7eEd9e03E53415D37aA96045` - vitalik.eth)
+
+Please note that Hedera previewnet or testnet RPCs are relatively unstable nowadays. If connecting to them doesn't work, please try again at a different time when network load is low.
 
 
 ## About the code
